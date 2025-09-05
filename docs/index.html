@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+
+    <title>Index Template</title>
+
+    <meta name="description" content="Index Template"/>
+    <meta name="author" content="Frédéric Cabestre"/>
+
+    <link rel="stylesheet" href="./dist/reset.css">
+    <link rel="stylesheet" href="./dist/reveal.css">
+    <link rel="stylesheet" href="./dist/theme/transparents.css" id="theme"/>
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="./plugin/highlight/zenburn.css"/>
+</head>
+
+<body>
+<div class="reveal">
+    <div class="slides">
+
+        <section>
+            <h1>WEB Single Sign-On</h1>
+            <h3>Ce qu'on devrait vous expliquer avant tout !</h3>
+        </section>
+
+        <section>
+            <h1>Problème</h1>
+            <blockquote style="margin-top: 6em; margin-right: 2em; margin-bottom: 100%">
+                « S'il n'y a pas de solution,
+                <div>c'est qu'il n'y a pas de problème. »</div>
+                <div style="font-size: smaller">&mdash; Aphorisme Shadok</div>
+            </blockquote>
+        </section>
+
+        <section>
+            <div class="list" style="margin-top: 4em; margin-bottom: 100%">
+                <div class="item"><span style="font-size: larger" class="magenta">Authentification</span></div>
+                <div class="fragment item">processus visant à garantir l'authenticité d'une identité</div>
+            </div>
+        </section>
+
+        <section>
+            <object data="./images/Authentification/1.svg"></object>
+        </section>
+
+        <section>
+            <object data="./images/Authentification/2.svg"></object>
+        </section>
+
+        <section>
+            <object data="./images/Authentification/3.svg"></object>
+        </section>
+
+        <section>
+            <object data="./images/Authentification/4.svg"></object>
+        </section>
+
+    </div>
+</div>
+
+<script src="./dist/reveal.js"></script>
+<script src="./plugin/notes/notes.js"></script>
+<script src="./plugin/markdown/markdown.js"></script>
+<script src="./plugin/highlight/highlight.js"></script>
+<script src="./plugin/math/math.js"></script>
+
+<script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: false,
+        progress: false,
+        history: true,
+        center: true,
+        width: 1600,
+        height: 900,
+
+        transition: "none",
+
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX],
+
+        katex: {
+            local: " ",
+            trust: true
+        },
+    });
+</script>
+</body>
+</html>

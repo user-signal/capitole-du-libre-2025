@@ -8,13 +8,56 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="1.svg"
+   sodipodi:docname="4.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs5" />
+     id="defs5">
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.2) rotate(180) translate(6,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path892" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Mstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path850" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow1Mend"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1105" />
+    </marker>
+  </defs>
   <style
      id="style2">
         @font-face {
@@ -63,9 +106,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="0.67793911"
-     inkscape:cx="661.56384"
-     inkscape:cy="328.20057"
+     inkscape:zoom="1.0108333"
+     inkscape:cx="600"
+     inkscape:cy="364.5507"
      inkscape:window-width="1920"
      inkscape:window-height="1172"
      inkscape:window-x="0"
@@ -140,4 +183,20 @@
        id="tspan9283"
        x="853.17603"
        y="250.73952">IDP</tspan></text>
+  <path
+     style="fill:none;stroke:#657b83;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow1Mend)"
+     d="M 330,250 V 134.11727 h 470"
+     id="path1014" />
+  <path
+     sodipodi:type="spiral"
+     style="fill:none;fill-rule:evenodd;stroke:#657b83;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Send)"
+     id="path875"
+     sodipodi:cx="562.00806"
+     sodipodi:cy="100"
+     sodipodi:expansion="1"
+     sodipodi:revolution="3"
+     sodipodi:radius="22.36068"
+     sodipodi:argument="-17.742407"
+     sodipodi:t0="0"
+     d="m 562.00806,100 c 0.50138,1.00277 -1.10435,1.17059 -1.66667,0.83333 -1.52385,-0.913932 -1.08578,-3.109985 0,-4.166664 1.9422,-1.89015 5.09803,-1.135482 6.66667,0.833336 2.30204,2.889318 1.19616,7.116468 -1.66667,9.166668 -3.81571,2.73259 -9.14615,1.2621 -11.66667,-2.50001 -3.17181,-4.73422 -1.33086,-11.181298 3.33334,-14.166662 5.64897,-3.615676 13.21956,-1.401287 16.66667,4.166673 4.06229,6.561649 1.47275,15.259749 -5.00001,19.166669 -7.47306,4.51069 -17.30123,1.54492 -21.66667,-5.83335 -4.96028,-8.383651 -1.61758,-19.343621 6.66668,-24.16666 9.29368,-5.41072 21.38668,-1.690588 26.66666,7.50001 5.86179,10.20331 1.76386,23.43023 -8.33334,29.16666" />
 </svg>

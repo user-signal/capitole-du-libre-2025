@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   sodipodi:docname="1.svg"
+   sodipodi:docname="9.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -140,4 +140,26 @@
        id="tspan9283"
        x="853.17603"
        y="250.73952">IDP</tspan></text>
+  <path
+     style="fill:none;stroke:#d33682;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 800,54.997003 V 594.997 H 400 V 54.997003 Z"
+     id="path868" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;line-height:1.25;font-family:Iosevka;-inkscape-font-specification:'Iosevka, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#d33682;fill-opacity:1"
+     x="478.27521"
+     y="333.81702"
+     id="text9226"><tspan
+       sodipodi:role="line"
+       id="tspan9224"
+       x="478.27521"
+       y="333.81702">Front Channel</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:24px;line-height:1.25;font-family:Iosevka;-inkscape-font-specification:'Iosevka, Normal'"
+     x="520"
+     y="220"
+     id="text30962"><tspan
+       sodipodi:role="line"
+       id="tspan30960"></tspan></text>
 </svg>

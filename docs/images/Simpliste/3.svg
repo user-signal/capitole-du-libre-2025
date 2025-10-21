@@ -16,20 +16,6 @@
   <defs
      id="defs5">
     <marker
-       style="overflow:visible"
-       id="Arrow1Mstart"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Mstart"
-       inkscape:isstock="true">
-      <path
-         transform="scale(0.4) translate(10,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path858" />
-    </marker>
-    <marker
        style="overflow:visible;"
        id="Arrow1Mend"
        refX="0.0"
@@ -41,21 +27,7 @@
          transform="scale(0.4) rotate(180) translate(10,0)"
          style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
          d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path5011" />
-    </marker>
-    <marker
-       style="overflow:visible;"
-       id="Arrow1Lend"
-       refX="0.0"
-       refY="0.0"
-       orient="auto"
-       inkscape:stockid="Arrow1Lend"
-       inkscape:isstock="true">
-      <path
-         transform="scale(0.8) rotate(180) translate(12.5,0)"
-         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
-         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
-         id="path5005" />
+         id="path1105" />
     </marker>
   </defs>
   <style
@@ -106,9 +78,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="0.67793911"
-     inkscape:cx="542.08408"
-     inkscape:cy="328.20057"
+     inkscape:zoom="1.3558782"
+     inkscape:cx="1033.6474"
+     inkscape:cy="420.76051"
      inkscape:window-width="1920"
      inkscape:window-height="1172"
      inkscape:window-x="0"
@@ -122,7 +94,7 @@
   </sodipodi:namedview>
   <g
      id="g966"
-     transform="matrix(1.0417969,0,0,1.0417969,29.465843,345.44441)">
+     transform="matrix(1.0417969,0,0,1.0417969,244.69537,322.56641)">
     <rect
        class="st0"
        height="48.593925"
@@ -139,7 +111,7 @@
   </g>
   <g
      id="g977"
-     transform="matrix(1.0417969,0,0,1.0417969,354.18985,353.91406)">
+     transform="matrix(1.0417969,0,0,1.0417969,201.43985,134.65356)">
     <path
        d="m 605.38206,-81.387315 v 22.677163 7.559054 15.118108 7.559055 15.118108 7.5590547 75.5905453 h 75.59055 v -75.5905453 -7.5590547 -15.118108 -7.559055 -15.118108 -7.559054 -22.677163 z m 7.55905,7.559054 h 60.47244 v 15.118109 h -60.47244 z m 0,22.677163 h 60.47244 v 15.118108 h -60.47244 z m 0,22.677163 h 60.47244 v 15.118108 h -60.47244 z m 0,22.6771627 h 60.47244 V 62.234719 h -60.47244 z m 45.35433,7.5590543 v 7.5590544 h 7.55905 V 1.762282 Z"
        style="fill:#657b83;fill-opacity:1;stroke:none;stroke-width:0px"
@@ -147,7 +119,7 @@
   </g>
   <g
      id="g977-4"
-     transform="matrix(1.0285677,0,0,1.0285677,-92.666199,353.83737)">
+     transform="matrix(1.0285677,0,0,1.0285677,209.94857,533.87688)">
     <path
        d="m 605.38206,-81.387315 v 22.677163 7.559054 15.118108 7.559055 15.118108 7.5590547 75.5905453 h 75.59055 v -75.5905453 -7.5590547 -15.118108 -7.559055 -15.118108 -7.559054 -22.677163 z m 7.55905,7.559054 h 60.47244 v 15.118109 h -60.47244 z m 0,22.677163 h 60.47244 v 15.118108 h -60.47244 z m 0,22.677163 h 60.47244 v 15.118108 h -60.47244 z m 0,22.6771627 h 60.47244 V 62.234719 h -60.47244 z m 45.35433,7.5590543 v 7.5590544 h 7.55905 V 1.762282 Z"
        style="fill:#657b83;fill-opacity:1;stroke:none;stroke-width:0px"
@@ -156,35 +128,35 @@
   <text
      xml:space="preserve"
      style="font-size:24px;line-height:1.25;font-family:Iosevka;-inkscape-font-specification:'Iosevka, Normal';fill:#657b83;fill-opacity:1"
-     x="53.340679"
-     y="469.90399"
+     x="268.57022"
+     y="409.026"
      id="text2765"><tspan
        sodipodi:role="line"
-       x="53.340679"
-       y="469.90399"
+       x="268.57022"
+       y="409.026"
        id="tspan18022">Navigateur</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:24px;line-height:1.25;font-family:Iosevka;-inkscape-font-specification:'Iosevka, Normal';fill:#657b83;fill-opacity:1"
-     x="526.90936"
-     y="469.90399"
+     x="829.52417"
+     y="649.94348"
      id="text6267"><tspan
        sodipodi:role="line"
        id="tspan6265"
-       x="526.90936"
-       y="469.90399">Service</tspan></text>
+       x="829.52417"
+       y="649.94348">Service</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:24px;line-height:1.25;font-family:Iosevka;-inkscape-font-specification:'Iosevka, Normal';fill:#657b83;fill-opacity:1"
-     x="1005.926"
-     y="470"
+     x="853.17603"
+     y="250.73952"
      id="text9285"><tspan
        sodipodi:role="line"
        id="tspan9283"
-       x="1005.926"
-       y="470">IDP</tspan></text>
+       x="853.17603"
+       y="250.73952">IDP</tspan></text>
   <path
-     style="fill:none;stroke:#657b83;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:;marker-start:url(#Arrow1Mstart)"
-     d="M 180,340 H 500"
-     id="path901" />
+     style="fill:#657b83;stroke:#657b83;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
+     d="M 871.5,424 V 274"
+     id="path957" />
 </svg>

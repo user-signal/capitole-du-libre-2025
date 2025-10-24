@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8"/>
 
-    <title>Index Template</title>
+    <title>WEB Single Sign-On</title>
 
     <meta name="description" content="WEB Single Sign-On"/>
     <meta name="author" content="Frédéric Cabestre"/>
@@ -56,8 +56,8 @@
 
         <section>
             <div class="list"  style="margin-bottom: 100%">
-                <div class="item" style="margin-top: 5em">WEB</div>
-                <div class="item fragment" style="margin-top: 2em">Humains</div>
+                <div class="item" style="margin-top: 4em ;font-size: larger">WEB</div>
+                <div class="item fragment" style="margin-top: 2em ;font-size: larger">Humains</div>
             </div>
         </section>
 
@@ -79,24 +79,24 @@
 
         <section>
             <div class="list"  style="margin-bottom: 100%">
-                <div class="item" style="margin-top: 5em">Homogénéité</div>
-                <div class="item fragment" style="margin-top: 2em">Fatigue</div>
+                <div class="item" style="margin-top: 4em; font-size: larger">Homogénéité</div>
+                <div class="item fragment" style="margin-top: 2em; font-size: larger">Fatigue</div>
             </div>
         </section>
 
         <section>
             <div class="list"  style="margin-bottom: 100%">
-                <div class="item" style="margin-top: 5em"><span class="magenta">Kerberos</span> [circa 1990]</div>
-                <div class="item fragment" style="margin-top: 2em">Tiers de confiance</div>
+                <div class="item" style="margin-top: 4em; font-size: larger"><span class="magenta">Kerberos</span> [circa 1990]</div>
+                <div class="item fragment" style="margin-top: 2em; font-size: larger">Tiers de confiance</div>
             </div>
         </section>
 
         <section>
             <div class="list"  style="margin-bottom: 100%">
-                <div class="item" style="margin-top: 5em">Cryptographie [Symétrique, Asymétrique]</div>
-                <div class="item fragment" style="margin-top: 2em">HTTP(S)</div>
-                <div class="item fragment" style="margin-top: 2em">Sérialization [XML, JSON]</div>
-                <div class="item fragment" style="margin-top: 2em">Javascript</div>
+                <div class="item" style="margin-top: 4em; font-size: larger">Cryptographie [Symétrique, Asymétrique]</div>
+                <div class="item fragment" style="margin-top: 2em; font-size: larger">HTTP(S)</div>
+                <div class="item fragment" style="margin-top: 2em; font-size: larger">Sérialization [XML, JSON]</div>
+                <div class="item fragment" style="margin-top: 2em; font-size: larger">Javascript</div>
             </div>
         </section>
 
@@ -219,6 +219,11 @@
 
         <section>
             <h2>Code à usage unique</h2>
+            <img src="./images/OTAC/3ter.svg" alt="">
+        </section>
+
+        <section>
+            <h2>Code à usage unique</h2>
             <img src="./images/OTAC/4.svg" alt="">
         </section>
 
@@ -303,7 +308,7 @@
         </section>
 
         <section>
-            <h1>Simplisme</h1>
+            <h1>Web SSO</h1>
             <blockquote style="margin-top: 6em; margin-right: 2em; margin-bottom: 100%">
                 « Le simple est toujours faux.
                 <div>Ce qui ne l’est pas est inutilisable. »</div>
@@ -331,14 +336,18 @@
             <object data="./images/Simpliste/5.svg"></object>
         </section>
 
-        <section>
-            <h1>Solution</h1>
-            <blockquote style="margin-top: 6em; margin-right: 2em; margin-bottom: 100%">
-                « Pour créer un marché, il faut inventer
-                <div>un problème, puis trouver sa solution. »</div>
-                <div style="font-size: smaller">&mdash; Scott Adams, Le Principe de Dilbert</div>
-            </blockquote>
+        <section style="margin-bottom: 100%">
+            <object data="./images/Simpliste/6.svg"></object>
         </section>
+
+<!--        <section>-->
+<!--            <h1>Solution</h1>-->
+<!--            <blockquote style="margin-top: 6em; margin-right: 2em; margin-bottom: 100%">-->
+<!--                « Pour créer un marché, il faut inventer-->
+<!--                <div>un problème, puis trouver sa solution. »</div>-->
+<!--                <div style="font-size: smaller">&mdash; Scott Adams, Le Principe de Dilbert</div>-->
+<!--            </blockquote>-->
+<!--        </section>-->
 
         <section style="margin-bottom: 100%">
             <object data="./images/Redirection/1.svg"></object>
@@ -353,7 +362,15 @@
         </section>
 
         <section style="margin-bottom: 100%">
+            <object data="./images/Redirection/3bis.svg"></object>
+        </section>
+
+        <section style="margin-bottom: 100%">
             <object data="./images/Redirection/4.svg"></object>
+        </section>
+
+        <section style="margin-bottom: 100%">
+            <object data="./images/Redirection/4bis.svg"></object>
         </section>
 
         <section style="margin-bottom: 100%">
@@ -378,6 +395,34 @@
 
         <section style="margin-bottom: 100%">
             <object data="./images/Redirection/10.svg"></object>
+        </section>
+
+        <section>
+            <div class="list" style="margin-top: 4em; margin-bottom: 100%">
+                <div class="item" style="font-size: larger">Codes HTTP <span class="code">302</span> ou <span class="code">303</span></div>
+                <div class="fragment item" style="margin-top: 1em; font-size: larger">Variable d'en-tête <span class="code">Location</span></div>
+            </div>
+        </section>
+
+        <section>
+            <div class="list" style="margin-top: 4em">
+                <div class="item">Code HTTP <span class="code">200</span></div>
+            </div>
+            <pre class="fragment" style="font-size: 1.2ex; margin-top: 4em; margin-bottom: 100%"><code class="html" style="max-height: 800px"><script type="text/template">
+
+            <body onload="document.forms[0].submit()">
+
+                <form action="https://my.idp.com/post/handler" method="post"
+                      enctype="application/x-www-form-urlencoded">
+
+                    <input type="hidden" name="field0" value="value0">
+                    <input type="hidden" name="field1" value="value1">
+                    <input type="hidden" name="field2" value="value2">
+
+                </form>
+
+            </body>
+            </script></code><div class="lang">HTML</div></pre>
         </section>
 
         <section>
